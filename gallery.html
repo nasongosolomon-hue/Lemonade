@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: oklab(82.354% 0.03131 0.06548);
+            background-size: cover;
+           text-align: center;
+        }
+        h1 {
+            color: #333333;
+            text-align: center;
+            background-color: rgb(65, 35, 0);
+            padding: 20px;
+        }
+        p {
+            color: hwb(0 0% 100%);
+            font-weight: bold;
+           
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+        }
+        .gallery img {
+            border-radius: 0px;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0);
+        }
+        .gallery img:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        h2 {
+            color: #333333;
+            text-align: center;
+            background-color: rgb(65, 35, 0);
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery</h1>
+    <p>Welcome to my photography gallery! Here you can find a collection of my best work, showcasing a variety of styles and subjects. Feel free to explore and enjoy the visual journey through my lens.</p>
+    <h2>Nature</h2>
+    <div  class="gallery">
+        <img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?cs=srgb&dl=cascade-clouds-cool-wallpaper-210186.jpg&fm=jpg" alt="Nature Photo 1" width="60%" height="50%">
+    <div style="flex: auto;">
+        <img src="https://th.bing.com/th/id/OIP.W2ZZmFD47OaU47rNNwzzUAHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Nature Photo 2" width="50%" height="50%"style="float: left;">
+        <img src="https://th.bing.com/th/id/OIP.APhPthtCRW7GEJe6D-CPOgHaEo?w=250&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Nature Photo 3" width="50%" height="50%" style="float: right;">
+        </div>
+    </div>
+    <h2>Urban</h2>
+    <div class="gallery">
+        
+    <div style="flex: auto;">
+        <img src="https://th.bing.com/th/id/OIP.Xt-7y9CrMZKYJaNU3e1Y2wHaE8?w=219&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Urban Photo 2" width="50%" height="50%"style="float: left;">
+        <img src="https://th.bing.com/th/id/OIP.aFFe8LceMBW48pKCZC_FoAHaE5?w=249&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Urban Photo 3" width="50%" height="50%" style="float: right;">
+        </div>
+    </div>
+    <h2>Wildlife</h2>
+    <div class="gallery">
+        <img src="https://th.bing.com/th/id/OIP.weLzLtGlW0y0NZyRWkDhOQHaEK?w=355&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Wildlife Photo 1" width="60%" height="50%">
+    <div style="flex: auto;">
+        <img src="https://th.bing.com/th/id/OIP.ecPPVUm8vhNruQNXacIiBQHaEK?w=317&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Wildlife Photo 2" width="50%" height="50%"style="float: left;">
+        <img src="https://th.bing.com/th/id/OIP.6fAWUZgEV-baNftymiXGgwHaEK?w=286&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Wildlife Photo 3" width="50%" height="50%" style="float: right;">
+        </div>
+    </div>
+
+     
+</body>
+</html>
